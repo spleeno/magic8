@@ -1,0 +1,13 @@
+This is a Twilio-powered SMS application. If you text in to your Twilio number, the application will reply with a sassy, SF-hipster themed response. 
+
+To deploy, 
+- host youshould.php somewhere on the interwebs
+- make a Twilio account and buy an SMS-enabled phone number
+- Paste the URL of youshould.php into the SMS Request URL for that number
+
+Now, any SMS into that URL will get an automatic reply randomly chosen from the list. 
+
+TODO
++ only respond to questions
++ remove unfunny responses
++ add some sort of algorithm to choose an answer. For some reason it bothers people that it's random.
